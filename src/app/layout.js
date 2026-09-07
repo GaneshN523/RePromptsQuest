@@ -1,14 +1,22 @@
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 import "./globals.css";
 
 export const metadata = {
   title: "RePromptsQuest",
-  description: "RePromptsQuest website",
+  description: "Learn with RePromptsQuest",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <Navbar />
+
+        <main>{children}</main>
+
+        <Footer />
+      </body>
     </html>
   );
 }

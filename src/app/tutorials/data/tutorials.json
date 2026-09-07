@@ -1,0 +1,16 @@
+{
+  "title": "Tutorials",
+  "description": "Learn programming and technology step by step.",
+  "tutorials": [
+    {
+      "title": "JavaScript Basics",
+      "description": "Learn the fundamentals of JavaScript.",
+      "slug": "javascript-basics"
+    },
+    {
+      "title": "Next.js Basics",
+      "description": "Learn how to build websites with Next.js.",
+      "slug": "nextjs-basics"
+    }
+  ]
+}

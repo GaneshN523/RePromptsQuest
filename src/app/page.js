@@ -1,9 +1,14 @@
-export default function Home() {
+import Hero from "./home/components/Hero";
+
+export default function HomePage() {
   return (
-    <main>
-      <h1>RePromptsQuest</h1>
-      <p>Welcome to my website.</p>
-    </main>
+    <>
+      <Hero />
+
+      <section>
+        <h2>Latest Tutorials</h2>
+        <p>Explore our latest tutorials.</p>
+      </section>
+    </>
   );
 }
-
